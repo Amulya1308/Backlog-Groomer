@@ -1,18 +1,10 @@
 {
   "name": "backlog-groomer",
   "version": "1.0.0",
-  "description": "A simple web app to groom backlog items using OpenAI",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "test": "echo \"no tests\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "openai": "^4.28.0"
+    "openai": "^4.0.0"
   }
 }
