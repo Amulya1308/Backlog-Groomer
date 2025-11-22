@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentItems = [];
 
         try {
-            const response = await fetch('/api/groom', {
+            const response = await fetch('/api/clean-backlog', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -140,3 +140,4 @@ document.addEventListener('DOMContentLoaded', () => {
         return 'tag-default';
     }
 });
+
