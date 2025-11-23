@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
     return res.json({ error: "Invalid JSON body" });
   }
 
-  const text = data.text;
+  const text = data.text || data.backlogText;
 
   if (!text || text.trim().length === 0) {
     res.statusCode = 400;
